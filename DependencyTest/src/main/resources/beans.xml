@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" 
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+     xsi:schemaLocation="http://www.springframework.org/schema/beans
+     http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+     	
+     	<bean id="service" class="EmployeeServiceImpl">
+     	<property name="ed" ref="dao"></property>
+     	</bean>
+     	
+     	<bean id="dao" class="EmployeeDaoImpl">
+     		<property name="dbConfig" ref="dbc"></property>
+     	</bean>
+     	
+     	<bean id="dbc" class="DBConfig">
+     		<property name="dbName" value="Database"></property>
+     		<property name="dbUrl" value="URL"></property>
+     	</bean>
+     
+     </beans>
