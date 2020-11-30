@@ -9,6 +9,6 @@ public class EmployeeDaoImpl implements EmployeeDao {
 
 	public void store() {
 		System.out.println("Calling from the DAO");
-		System.out.println(dbConfig.getDbName()+" "+dbConfig.getDbUrl());
+		System.out.println(dbConfig.getName()+" "+dbConfig.getUrl());
 	}
 }

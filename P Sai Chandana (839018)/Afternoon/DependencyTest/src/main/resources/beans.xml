@@ -13,8 +13,8 @@
      	</bean>
      	
      	<bean id="dbc" class="DBConfig">
-     		<property name="dbName" value="Database"></property>
-     		<property name="dbUrl" value="URL"></property>
+     		<property name="Name" value="Database"></property>
+     		<property name="Url" value="URL"></property>
      	</bean>
      
      </beans>

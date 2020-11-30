@@ -1,19 +1,19 @@
 
 public class DBConfig {
 	
-	private String dbName;
-	private String dbUrl;
-	public String getDbName() {
-		return dbName;
+	private String Name;
+	private String Url;
+	public String getName() {
+		return Name;
 	}
-	public void setDbName(String dbName) {
-		this.dbName = dbName;
+	public void setName(String Name) {
+		this.Name = Name;
 	}
-	public String getDbUrl() {
-		return dbUrl;
+	public String getUrl() {
+		return Url;
 	}
-	public void setDbUrl(String dbUrl) {
-		this.dbUrl = dbUrl;
+	public void setUrl(String Url) {
+		this.Url = Url;
 	}
 	
 	
